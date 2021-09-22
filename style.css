@@ -313,6 +313,47 @@ a{
 #learn-more{
     font-family: font2;
     font-weight: 600;
-    padding: 10px 10px;
-    
+    padding: 10px 10px;  
+}
+.facuilty-area{
+    margin-top: 40px;
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(216, 216, 216, 0.4);
+}
+.img-area{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.content{
+    margin-right: 60px;
+}
+.img-icon{
+    margin-top: 5px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 20px 20px;
+}
+.icon-border{
+    margin: 10px 75px;
+    border: 1.5px solid white;
+    border-radius: 75px;
+}
+.icon-border2{
+    margin: 10px 80px;
+    border: 1.5px solid white;
+    border-radius: 75px;
+}
+.icon-border3{
+    margin: 10px 65px;
+    border: 1.5px solid white;
+    border-radius: 75px;
+}
+.icon-border4{
+    margin: 10px 48px;
+    border: 1.5px solid white;
+    border-radius: 75px;
 }
