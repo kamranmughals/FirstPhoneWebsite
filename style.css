@@ -24,6 +24,7 @@
     align-items: center;
 }
 .navigation nav ul li a{
+    margin-left: 3px;
     padding: 10px 20px;
     margin-left: 3px;
     border-radius: 50px;
