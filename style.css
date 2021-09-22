@@ -25,6 +25,7 @@
 }
 .navigation nav ul li a{
     padding: 10px 20px;
+    margin-left: 3px;
     border-radius: 50px;
     color: rgba(0, 0, 0, 4);
     transition: 0.5s ease;
