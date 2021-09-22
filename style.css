@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    list-style-type: none;
     text-decoration: none;
     box-sizing: inherit;
     font-family: font1;
@@ -9,6 +8,7 @@
 a{
     color: black;
 }
+/* Navigation bar */
 .navigation nav .logo{
     text-transform: uppercase;
     font-weight: bolder;
@@ -23,6 +23,7 @@ a{
 }
 .navigation nav ul{
     display: flex;
+    list-style-type: none;
     justify-content: center;
     align-items: center;
 }
@@ -58,6 +59,7 @@ a{
     font-family: font2;
     src: url(coco.ttf);
 }
+/* Banner area */
 .banner-area .headings{
     display: block;
     float: left;
@@ -95,6 +97,7 @@ a{
 #four:hover{
     background-color: #f71111;
 }
+/* New Products or arivals */
 .collection-box .img-collection{
     display: flex;
     justify-content: center;
@@ -141,6 +144,7 @@ a{
     color: black;
     font-family: font2;
 }
+/* Featured Products */
 .product-area{
     margin-bottom: 30px;
 }
@@ -148,11 +152,11 @@ a{
     text-align: center;
 }
 .product-collections{
-    padding: 30px 60px;
+    padding: 20px 40px;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     transition: 1s;
     margin-right: 5px;
 }
@@ -166,11 +170,9 @@ a{
     text-align: center;
     justify-content: center;
 }
-.collection_02{
-    padding: 10px;
-}
+
 .product-collections img{
-    height: 300px;
+    height: 200px;
 }
 #p1{
     padding: 10px 10px;
@@ -197,6 +199,7 @@ a{
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     min-width: 28px;
     padding: 8px 16px;
+    margin-right: 5px;
     border-radius: 980px;
     background-color: rgb(0, 0, 0);
     color: #fff;
@@ -224,6 +227,7 @@ a{
     font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     min-width: 28px;
     padding: 8px 16px;
+    margin-right: 5px;
     border-radius: 980px;
     background-color: rgb(0, 0, 0);
     color: #fff;
@@ -249,4 +253,66 @@ a{
 .img1 .collection_02{
     text-align: center;
 }
-
+/* Product list */
+.listProduct{
+    text-align: center;
+    align-items: center;
+    background-color: rgba(216, 216, 216, 0.4);
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.products-items ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.products-items ul li a h4{
+    text-align: center;
+    padding: 0px 30px;
+    font-family: font1;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 0.6;
+}
+#act{
+    color: black;
+    opacity: 1;
+}
+/* All products */
+.avail-products{
+    padding: 20px 15px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.4);
+    margin-bottom: 5px;
+    transition: 1s;
+    margin-top: 5px;
+    margin-right: 5px;
+    flex-basis: 350px; /* explanation below */
+}
+.allproducts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.avail-products img{
+    height: 250px;
+}
+#cart-color{
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#cart-color:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+#learn-more{
+    font-family: font2;
+    font-weight: 600;
+    padding: 10px 10px;
+    
+}
