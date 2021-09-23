@@ -583,7 +583,7 @@ div{
     font-family: font3;
     src: url(SF-UI-Display-Regular.otf);
 }
-@media only screen and (max-width:768px) {
+/* @media only screen and (max-width:768px) {
     .container{
         padding-bottom: 30px;
         padding-right: 50px;
@@ -650,4 +650,14 @@ div{
         font-size: 10px;
     }
 
+}*/
+
+/* Login Html Form Page */
+/* 
+ */
+.background{
+    background: #f71111;
+}
+.rounded .round-shape{
+     background-color: #ccc;
 }
