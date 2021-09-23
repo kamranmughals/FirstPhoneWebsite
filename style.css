@@ -407,22 +407,247 @@ a{
     padding: 20px 20px;
 }
 .icon-border{
-    margin: 10px 75px;
+    margin: 12px 55px;
     border: 1.5px solid white;
     border-radius: 75px;
 }
 .icon-border2{
-    margin: 10px 80px;
+    margin: 10px 60px;
     border: 1.5px solid white;
     border-radius: 75px;
 }
 .icon-border3{
-    margin: 10px 65px;
+    margin: 10px 48px;
     border: 1.5px solid white;
     border-radius: 75px;
 }
 .icon-border4{
-    margin: 10px 48px;
+    margin: 10px 32px;
     border: 1.5px solid white;
     border-radius: 75px;
+}
+/* Subscribe to newsletter */
+.newletter{
+    margin-top: 40px;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    padding-right: 9.375rem;
+}
+.subscribe-box{
+    padding: 12px;
+    margin-bottom: 1px;
+}
+.input-box{
+    position: relative;
+    justify-content:center;
+}
+.email{
+    font-size: 1em;
+    text-indent: 1rem;
+    font-weight: 400;
+    padding: 12px;
+    width: 290px;
+    background: #f1f1f1;
+    border: none;
+    font-family: "Archivo", sans-serif;
+    outline: none;
+}
+.btn-s{
+    position: absolute;
+    padding: 8px;
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Archivo", sans-serif;
+    background-color: rgba(0, 0, 0, 4);
+    padding: 12px;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+#small{
+    font-size: 15px;
+    font-family: "Archivo", sans-serif;
+}
+.btn-s:hover{
+    background-color: rgb(255, 0, 0);
+    transform: translateX(1px);
+}
+
+/* Footer section */
+.foot-container{
+    max-width: 117rem;
+    margin: 0 auto;
+    padding: 0 1.6rem;
+}
+.footer{
+    background-color: #333;
+    padding: 20px 30px;
+    line-height: 2.5rem;
+}
+.section{
+    padding: 3rem 0;
+}
+#footer{
+    display: block;
+}
+.foot-container{
+    max-width: 117rem;
+    padding-right: 9.375rem;
+}
+.foot-container .foot-top h3{
+    text-align: center;
+}
+div{
+    display: block;
+}
+.footer-top{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: #ccc;
+    text-align: center;
+}
+.foot-top a{
+    justify-items: left;
+    font-family: "Archivo", sans-serif;
+    display: block;
+    color: #ccc;
+    letter-spacing: 0.8px;
+    transition: 0.6s;
+    font-size: 15px;
+    font-weight: normal;
+}
+.footer-top h3 {
+    font-size: 1.3rem;
+    font-family: "Archivo", sans-serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+/* Page numbers */
+.page-num{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.page{
+    position: relative;
+    justify-content: center;
+}
+.page .pre-next{
+    padding: 10px 20px;
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: "Archivo", sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+.pre-next:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    transform: translateX(2px);
+}
+.page .btn-pg{
+    padding: 7px 20px;
+    font-family: "Archivo", sans-serif;
+    border: 2px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+.btn-pg:hover{
+    background-color: rgb(255, 0, 0);
+    color: white;
+    border: none;
+    transform: translateX(2px);
+}
+.last-area{
+    text-align: center;
+    font-size: 14px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    letter-spacing: 1px;
+}
+.last-area h4{
+    font-family: font3;
+}
+@font-face {
+    font-family: font3;
+    src: url(SF-UI-Display-Regular.otf);
+}
+@media only screen and (max-width:768px) {
+    .container{
+        padding-bottom: 30px;
+        padding-right: 50px;
+        width: 100%;
+        text-align: center;
+    }
+    #banner_02{
+        height: 300px;
+        position: relative;
+        left: -80px;
+    }
+    .headings{
+        width: 80%;
+        font-size: 13px;
+    }
+    .banner-area{
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+    }
+    .head .title{
+        font-size: 15px;
+    }
+    .collection-box{
+        width: 80%;
+        margin-left: 70px;
+    }
+    .img-collection img{
+        align-items: center;
+        text-align: center;
+    }
+    .img-collection{
+        height: 200px;
+    }
+    .img-collection .info{
+        margin-left: 60px;
+    }
+    .product-collections .img-1{
+        height: 300px;
+        width: 200px;
+    }
+    .product-box{
+        display: flex;
+        margin: 0 auto;
+    }
+    .product-collections{
+        display: block;
+        width: 150px;
+    }
+   
+    #p1{
+        font-size: 12px;
+    }
+    #d1{
+        font-size: 10px;
+    }
+    #pr{
+        font-size: 12px;
+    }
+    .btn-by .btn-b{
+        font-size: 10px;
+    }
+    .btn-pr .btn-p{
+        font-size: 10px;
+    }
+
 }
