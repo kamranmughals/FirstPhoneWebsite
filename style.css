@@ -655,10 +655,34 @@ div{
 /* Login Html Form Page */
 /* 
  */
+.banner-login img{
+    height: 600px;
+    position: relative;
+    left: 50%;
+    margin: 40px auto;
+    transform: translate(-25%, 5%);
+}
 .login-container{
-    background: linear-gradient(to bottom left, #ffffff, #ece9e6);
-    color: #f71111;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
 }
-.rounded .round-shape{
-     background-color: #ccc;
+.login-area .user-details{
+    display: block;
 }
+.login-form{
+    margin: 40px auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, 20%);
+}
+.title h2{
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 30px;
+}
+.login-area label input{
+    display: flex;
+}
+
