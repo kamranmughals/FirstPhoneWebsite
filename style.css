@@ -655,8 +655,9 @@ div{
 /* Login Html Form Page */
 /* 
  */
-.background{
-    background: #f71111;
+.login-container{
+    background: linear-gradient(to bottom left, #ffffff, #ece9e6);
+    color: #f71111;
 }
 .rounded .round-shape{
      background-color: #ccc;
