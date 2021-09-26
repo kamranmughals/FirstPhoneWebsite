@@ -53,11 +53,15 @@ a{
 }
 @font-face {
     font-family: font1;
-    src: url(samsungsharpsans.otf);
+    src: url(Poppins-Light.ttf);
 }
 @font-face {
     font-family: font2;
     src: url(coco.ttf);
+}
+@font-face {
+    font-family: font3;
+    src: url(Poppins-Regular.ttf);
 }
 /* Banner area */
 .banner-area{
@@ -74,15 +78,23 @@ a{
 #banner_02{
     margin-top: 40px;
 }
+#one{
+    font-family: font3;
+}
+@font-face {
+    font-family: font4;
+    src: url(Poppins-Medium.ttf);
+}
 #two{
-    font-family: font2;
-    font-weight: 800;
+    font-family: font4;
+    font-weight: bolder;
     text-transform: uppercase;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 #three{
     padding-bottom: 10px;
+    font-family: font3;
 }
 #four{
     padding: 15px 35px;
@@ -91,7 +103,7 @@ a{
     border: none;
     background-color: #333;
     color: white;
-    font-weight: 200;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 1.5px;
     cursor: pointer;
@@ -203,7 +215,7 @@ a{
 }
 #product{
     color: black;
-    font-family: font2;
+    font-family: font1;
 }
 /* Featured Products */
 .product-area{
@@ -244,6 +256,7 @@ a{
 #d1{
     padding: 5px 5px;
     text-align: center;
+    font-family: font3;
 }
 #pr{
     padding: 2px 2px;
@@ -260,7 +273,6 @@ a{
     line-height: 1.17648;
     font-weight: 400;
     letter-spacing: -.022em;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     min-width: 28px;
     padding: 8px 16px;
     margin-right: 5px;
@@ -307,7 +319,6 @@ a{
     line-height: 1.33337;
     font-weight: 400;
     letter-spacing: -.01em;
-    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
     min-width: 23px;
     padding: 4px 11px;
 }
@@ -334,7 +345,6 @@ a{
     text-align: center;
     transition: 0.5s all;
     padding: 0px 30px;
-    font-family: font1;
     font-size: 20px;
     font-weight: bold;
     opacity: 0.6;
@@ -410,22 +420,22 @@ a{
     padding: 20px 20px;
 }
 .icon-border{
-    margin: 12px 55px;
+    margin: 12px 45px;
     border: 1.5px solid white;
     border-radius: 75px;
 }
 .icon-border2{
-    margin: 10px 60px;
+    margin: 10px 50px;
     border: 1.5px solid white;
     border-radius: 75px;
 }
 .icon-border3{
-    margin: 10px 48px;
+    margin: 10px 40px;
     border: 1.5px solid white;
     border-radius: 75px;
 }
 .icon-border4{
-    margin: 10px 32px;
+    margin: 10px 25px;
     border: 1.5px solid white;
     border-radius: 75px;
 }
@@ -463,7 +473,6 @@ a{
     padding: 8px;
     font-size: 1em;
     font-weight: 400;
-    font-family: "Archivo", sans-serif;
     background-color: rgba(0, 0, 0, 4);
     padding: 12px;
     border: none;
@@ -473,7 +482,7 @@ a{
 }
 #small{
     font-size: 15px;
-    font-family: "Archivo", sans-serif;
+    font-weight: 600;
 }
 .btn-s:hover{
     background-color: rgb(255, 0, 0);
@@ -515,7 +524,6 @@ div{
 }
 .foot-top a{
     justify-items: left;
-    font-family: "Archivo", sans-serif;
     display: block;
     color: #ccc;
     letter-spacing: 0.8px;
@@ -525,8 +533,7 @@ div{
 }
 .footer-top h3 {
     font-size: 1.3rem;
-    font-family: "Archivo", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 /* Page numbers */
@@ -582,12 +589,9 @@ div{
     letter-spacing: 1px;
 }
 .last-area h4{
-    font-family: font3;
+    font-family: font1;
 }
-@font-face {
-    font-family: font3;
-    src: url(SF-UI-Display-Regular.otf);
-}
+
 /* @media only screen and (max-width:768px) {
     .container{
         padding-bottom: 30px;
@@ -757,7 +761,7 @@ div{
     justify-content: center;
     align-content: center;
     padding: 50px 50px;
-    border-radius: 40px;
+    border-radius: 15px;
     width: 450px;
     margin: auto;
     transform: translate(0%, 15%);
@@ -778,7 +782,7 @@ div{
     font-weight: 800;
 }
 .user-details{
-    font-weight: 800;
+    font-family: font3;
     color: white;
 }
 .input-boxs .get-details{
@@ -786,7 +790,7 @@ div{
     width: 300px;
     margin-bottom: 10px;
     margin-top: 10px;
-    border-radius: 8px;
+    border-radius: 15px;
     border: none;
     outline: none;
     background-color: #f1f1f1;
@@ -796,7 +800,7 @@ div{
     float: right;
     padding: 10px 30px;
     font-size: 16px;
-    border-radius: 50px;
+    border-radius: 15px;
     border: none;
     background-color: rgb(0, 0, 0);
     color: white;
@@ -811,16 +815,19 @@ div{
     color: white;
     font-size: 15px;
     letter-spacing: 0.5px;
+    font-family: font3;
 }
 .forget-pass h4 a{
     margin-top: 10px;
     color: white;
+    font-family: font3;
+    letter-spacing: 1px;
 }
 .pra{
     margin-top: 10px;
     color: white;
     text-align: center;
-    font-weight: 800;
+    font-family: font3;
 }
 .bar{
     height: 2px;
@@ -841,11 +848,13 @@ div{
 #links{
     text-align: center;
 }
+
 .link img{ 
     width: 30px;
     padding: 10px 20px;
 
 }
+
 /* Sign up form */
 
 
@@ -907,7 +916,7 @@ div{
 }
 .submit-btn-reg{
     display: flex;
-    margin-top: 2rem;
+    margin-top: 1rem;
     margin-bottom: 30px;
     display: flex;
     transform: translate(15%);
