@@ -748,7 +748,7 @@ div{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 130vh;
+    height: 110vh;
     width: 100%;
 }
 .login-form{
@@ -819,6 +819,7 @@ div{
 .pra{
     margin-top: 10px;
     color: white;
+    text-align: center;
     font-weight: 800;
 }
 .bar{
@@ -828,7 +829,18 @@ div{
     opacity: 0.5;
     background-color: white;
 }
-
+#sign-up-1{
+    color: #f71111;
+}
+#sign-up-1:visited{
+    color: blue;
+}
+#sign-up-1:link{
+    color: black;
+}
+#links{
+    text-align: center;
+}
 .link img{ 
     width: 30px;
     padding: 10px 20px;
